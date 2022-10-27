@@ -15,6 +15,7 @@
 
 #twinkling {
     background: transparent url("../img/twinkling.png") repeat top center;
+    -webkit-background: transparent url("../img/twinkling.png") repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
 }
