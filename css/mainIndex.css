@@ -1,0 +1,39 @@
+#stars, #twinkling {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+#stars {
+    background: black url("../img/stars.png") repeat top center;
+    z-index: 0;
+}
+
+#twinkling {
+    background: transparent url("../img/twinkling.png") repeat top center;
+    z-index: 1;
+    animation: move-twinkle-back 200s linear infinite;
+}
+
+@keyframes move-twinkle-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+#page > img {
+    position: absolute;
+    margin: auto;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}

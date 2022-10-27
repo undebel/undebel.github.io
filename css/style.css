@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: red;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+#header > img {
+    float: left;
+    border-radius: 50%;
+}
+
+#header > h1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#nav {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+#nav > a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#nav > a:hover {
+    color: red;
+}
